@@ -112,6 +112,9 @@ function Products() {
             }}>
             <Box>
               <Typography variant="subtitle1">{product.name}</Typography>
+              <Typography variant="body2">
+                Category: {product.category}
+              </Typography>
               <Typography variant="body2">Price: {product.price} Kč</Typography>
               <Typography variant="body2">SKU: {product.sku}</Typography>
               <Typography variant="body2">
